@@ -1,0 +1,381 @@
+@prefix mech: <http://example.org/mechanization/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mechanization/tractor/1100_Vario_MT> a schema:Vehicle ;
+    mech:horsepower 511,
+        564,
+        618,
+        673 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Fendt> ;
+    schema:name "1100 Vario MT"@en .
+
+<http://example.org/mechanization/tractor/160-90_DT> a schema:Vehicle ;
+    mech:horsepower 160,
+        180 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Fiat> ;
+    schema:name "160-90 DT"@en .
+
+<http://example.org/mechanization/tractor/300_Vario> a schema:Vehicle ;
+    mech:horsepower 113,
+        123,
+        133,
+        142 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Fendt> ;
+    schema:name "300 Vario"@en .
+
+<http://example.org/mechanization/tractor/3650> a schema:Vehicle ;
+    mech:horsepower 116 ;
+    schema:manufacturer <http://example.org/mechanization/brand/John_Deere> ;
+    schema:name "3650"@en .
+
+<http://example.org/mechanization/tractor/500_Vario> a schema:Vehicle ;
+    mech:horsepower 131,
+        141,
+        156,
+        171 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Fendt> ;
+    schema:name "500 Vario"@en .
+
+<http://example.org/mechanization/tractor/6C_RVshift> a schema:Vehicle ;
+    mech:horsepower 126,
+        136,
+        143 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Deutz-Fahr> ;
+    schema:name "6C RVshift"@en .
+
+<http://example.org/mechanization/tractor/700_Vario> a schema:Vehicle ;
+    mech:horsepower 203,
+        223,
+        243,
+        262,
+        303 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Fendt> ;
+    schema:name "700 Vario"@en .
+
+<http://example.org/mechanization/tractor/7R_Series> a schema:Vehicle ;
+    mech:horsepower 305,
+        332,
+        352,
+        373,
+        388 ;
+    schema:manufacturer <http://example.org/mechanization/brand/John_Deere> ;
+    schema:name "7R Series"@en .
+
+<http://example.org/mechanization/tractor/8010_Series> a schema:Vehicle ;
+    schema:manufacturer <http://example.org/mechanization/brand/AGCO> ;
+    schema:name "8010 Series"@en .
+
+<http://example.org/mechanization/tractor/8R_Series> a schema:Vehicle ;
+    mech:horsepower 326,
+        357,
+        388,
+        420,
+        458 ;
+    schema:manufacturer <http://example.org/mechanization/brand/John_Deere> ;
+    schema:name "8R Series"@en .
+
+<http://example.org/mechanization/tractor/900_Vario> a schema:Vehicle ;
+    mech:horsepower 296,
+        326,
+        355,
+        385,
+        415 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Fendt> ;
+    schema:name "900 Vario"@en .
+
+<http://example.org/mechanization/tractor/9RX_Series> a schema:Vehicle ;
+    schema:manufacturer <http://example.org/mechanization/brand/John_Deere> ;
+    schema:name "9RX Series"@en .
+
+<http://example.org/mechanization/tractor/9R_Series> a schema:Vehicle ;
+    mech:horsepower 484,
+        539,
+        594,
+        649,
+        691 ;
+    schema:manufacturer <http://example.org/mechanization/brand/John_Deere> ;
+    schema:name "9R Series"@en .
+
+<http://example.org/mechanization/tractor/ARION_570-530> a schema:Vehicle ;
+    mech:horsepower 145,
+        165,
+        180 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Claas> ;
+    schema:name "ARION 570-530"@en .
+
+<http://example.org/mechanization/tractor/Absolut> a schema:Vehicle ;
+    schema:manufacturer <http://example.org/mechanization/brand/Steyr> ;
+    schema:name "Absolut"@en .
+
+<http://example.org/mechanization/tractor/AgroStar_8.31> a schema:Vehicle ;
+    mech:horsepower 230 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Deutz-Fahr> ;
+    schema:name "AgroStar 8.31"@en .
+
+<http://example.org/mechanization/tractor/CRYSTAL_HD> a schema:Vehicle ;
+    mech:horsepower 171 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Zetor> ;
+    schema:name "CRYSTAL HD"@en .
+
+<http://example.org/mechanization/tractor/FORTERRA_HSX> a schema:Vehicle ;
+    mech:horsepower 117,
+        127,
+        136 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Zetor> ;
+    schema:name "FORTERRA HSX"@en .
+
+<http://example.org/mechanization/tractor/Farmall_C_Series> a schema:Vehicle ;
+    mech:horsepower 90,
+        100,
+        110,
+        117 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Case_IH> ;
+    schema:name "Farmall C Series"@en .
+
+<http://example.org/mechanization/tractor/Lintrac_130> a schema:Vehicle ;
+    mech:horsepower 136 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Lindner> ;
+    schema:name "Lintrac 130"@en .
+
+<http://example.org/mechanization/tractor/MF_5700_S> a schema:Vehicle ;
+    mech:horsepower 95,
+        100,
+        110,
+        120,
+        130 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Massey_Ferguson> ;
+    schema:name "MF 5700 S"@en .
+
+<http://example.org/mechanization/tractor/MF_7S> a schema:Vehicle ;
+    mech:horsepower 155,
+        165,
+        180,
+        190,
+        210 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Massey_Ferguson> ;
+    schema:name "MF 7S"@en .
+
+<http://example.org/mechanization/tractor/MF_9S> a schema:Vehicle ;
+    mech:horsepower 285,
+        310,
+        340,
+        370,
+        400,
+        425 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Massey_Ferguson> ;
+    schema:name "MF 9S"@en .
+
+<http://example.org/mechanization/tractor/MT600_Series> a schema:Vehicle ;
+    mech:horsepower 160,
+        180,
+        200,
+        225 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Challenger> ;
+    schema:name "MT600 Series"@en .
+
+<http://example.org/mechanization/tractor/Mach_4R> a schema:Vehicle ;
+    mech:horsepower 98 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Antonio_Carraro> ;
+    schema:name "Mach 4R"@en .
+
+<http://example.org/mechanization/tractor/Magnum_AFS_Connect_Series> a schema:Vehicle ;
+    mech:horsepower 374,
+        418,
+        435 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Case_IH> ;
+    schema:name "Magnum AFS Connect Series"@en .
+
+<http://example.org/mechanization/tractor/PROXIMA_HS> a schema:Vehicle ;
+    mech:horsepower 76,
+        88,
+        96,
+        107,
+        117 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Zetor> ;
+    schema:name "PROXIMA HS"@en .
+
+<http://example.org/mechanization/tractor/Puma_AFS_Connect> a schema:Vehicle ;
+    mech:horsepower 224,
+        245,
+        260,
+        271,
+        302 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Case_IH> ;
+    schema:name "Puma AFS Connect"@en .
+
+<http://example.org/mechanization/tractor/REX_4_GT> a schema:Vehicle ;
+    mech:horsepower 70,
+        76,
+        90,
+        95,
+        102,
+        112 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Landini> ;
+    schema:name "REX 4 GT"@en .
+
+<http://example.org/mechanization/tractor/SKH_60> a schema:Vehicle ;
+    mech:horsepower 75 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Rigitrac> ;
+    schema:name "SKH 60"@en .
+
+<http://example.org/mechanization/tractor/S_Series> a schema:Vehicle ;
+    mech:horsepower 280,
+        310,
+        340,
+        370,
+        400,
+        420 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Valtra> ;
+    schema:name "S Series"@en .
+
+<http://example.org/mechanization/tractor/Series_6R_%28Extra_Large%29> a schema:Vehicle ;
+    mech:horsepower 281,
+        301 ;
+    schema:manufacturer <http://example.org/mechanization/brand/John_Deere> ;
+    schema:name "Series 6R (Extra Large)"@en .
+
+<http://example.org/mechanization/tractor/Series_6R_%28Large%29> a schema:Vehicle ;
+    mech:horsepower 192,
+        203,
+        213,
+        234 ;
+    schema:manufacturer <http://example.org/mechanization/brand/John_Deere> ;
+    schema:name "Series 6R (Large)"@en .
+
+<http://example.org/mechanization/tractor/Series_7_TTV_HD> a schema:Vehicle ;
+    mech:horsepower 247 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Deutz-Fahr> ;
+    schema:name "Series 7 TTV HD"@en .
+
+<http://example.org/mechanization/tractor/Series_8_TTV> a schema:Vehicle ;
+    mech:horsepower 287 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Deutz-Fahr> ;
+    schema:name "Series 8 TTV"@en .
+
+<http://example.org/mechanization/tractor/Series_M8> a schema:Vehicle ;
+    mech:horsepower 180,
+        200 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Kubota> ;
+    schema:name "Series M8"@en .
+
+<http://example.org/mechanization/tractor/Steiger_715_Quadtrac> a schema:Vehicle ;
+    mech:horsepower 778 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Case_IH> ;
+    schema:name "Steiger 715 Quadtrac"@en .
+
+<http://example.org/mechanization/tractor/T7_LWB_PLMI> a schema:Vehicle ;
+    schema:manufacturer <http://example.org/mechanization/brand/New_Holland> ;
+    schema:name "T7 LWB PLMI"@en .
+
+<http://example.org/mechanization/tractor/T8_GENESIS_Series> a schema:Vehicle ;
+    mech:horsepower 351,
+        381,
+        409,
+        435 ;
+    schema:manufacturer <http://example.org/mechanization/brand/New_Holland> ;
+    schema:name "T8 GENESIS Series"@en .
+
+<http://example.org/mechanization/tractor/TJW> a schema:Vehicle ;
+    mech:horsepower 123 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Iseki> ;
+    schema:name "TJW"@en .
+
+<http://example.org/mechanization/tractor/TK4.80_Methane_Power> a schema:Vehicle ;
+    mech:horsepower 75 ;
+    schema:manufacturer <http://example.org/mechanization/brand/New_Holland> ;
+    schema:name "TK4.80 Methane Power"@en .
+
+<http://example.org/mechanization/tractor/T_Series> a schema:Vehicle ;
+    mech:horsepower 210,
+        230,
+        250,
+        271 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Valtra> ;
+    schema:name "T Series"@en .
+
+<http://example.org/mechanization/tractor/Tony_10900_TTR> a schema:Vehicle ;
+    mech:horsepower 98 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Antonio_Carraro> ;
+    schema:name "Tony 10900 TTR"@en .
+
+<http://example.org/mechanization/tractor/Virtus_135_RVshift> a schema:Vehicle ;
+    schema:manufacturer <http://example.org/mechanization/brand/SAME> ;
+    schema:name "Virtus 135 RVshift"@en .
+
+<http://example.org/mechanization/tractor/X8_VT-Drive> a schema:Vehicle ;
+    mech:horsepower 264,
+        286,
+        310 ;
+    schema:manufacturer <http://example.org/mechanization/brand/McCormick> ;
+    schema:name "X8 VT-Drive"@en .
+
+<http://example.org/mechanization/tractor/XERION_12> a schema:Vehicle ;
+    mech:horsepower 585,
+        653 ;
+    schema:manufacturer <http://example.org/mechanization/brand/Claas> ;
+    schema:name "XERION 12"@en .
+
+<http://example.org/mechanization/brand/AGCO> a schema:Organization ;
+    schema:name "AGCO"@en .
+
+<http://example.org/mechanization/brand/Challenger> a schema:Organization ;
+    schema:name "Challenger"@en .
+
+<http://example.org/mechanization/brand/Fiat> a schema:Organization ;
+    schema:name "Fiat"@en .
+
+<http://example.org/mechanization/brand/Iseki> a schema:Organization ;
+    schema:name "Iseki"@en .
+
+<http://example.org/mechanization/brand/Kubota> a schema:Organization ;
+    schema:name "Kubota"@en .
+
+<http://example.org/mechanization/brand/Landini> a schema:Organization ;
+    schema:name "Landini"@en .
+
+<http://example.org/mechanization/brand/Lindner> a schema:Organization ;
+    schema:name "Lindner"@en .
+
+<http://example.org/mechanization/brand/McCormick> a schema:Organization ;
+    schema:name "McCormick"@en .
+
+<http://example.org/mechanization/brand/Rigitrac> a schema:Organization ;
+    schema:name "Rigitrac"@en .
+
+<http://example.org/mechanization/brand/SAME> a schema:Organization ;
+    schema:name "SAME"@en .
+
+<http://example.org/mechanization/brand/Steyr> a schema:Organization ;
+    schema:name "Steyr"@en .
+
+<http://example.org/mechanization/brand/Antonio_Carraro> a schema:Organization ;
+    schema:name "Antonio Carraro"@en .
+
+<http://example.org/mechanization/brand/Claas> a schema:Organization ;
+    schema:name "Claas"@en .
+
+<http://example.org/mechanization/brand/Valtra> a schema:Organization ;
+    schema:name "Valtra"@en .
+
+<http://example.org/mechanization/brand/Massey_Ferguson> a schema:Organization ;
+    schema:name "Massey Ferguson"@en .
+
+<http://example.org/mechanization/brand/New_Holland> a schema:Organization ;
+    schema:name "New Holland"@en .
+
+<http://example.org/mechanization/brand/Zetor> a schema:Organization ;
+    schema:name "Zetor"@en .
+
+<http://example.org/mechanization/brand/Case_IH> a schema:Organization ;
+    schema:name "Case IH"@en .
+
+<http://example.org/mechanization/brand/Deutz-Fahr> a schema:Organization ;
+    schema:name "Deutz-Fahr"@en .
+
+<http://example.org/mechanization/brand/Fendt> a schema:Organization ;
+    schema:name "Fendt"@en .
+
+<http://example.org/mechanization/brand/John_Deere> a schema:Organization ;
+    schema:name "John Deere"@en .
+
